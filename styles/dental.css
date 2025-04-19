@@ -1,0 +1,26 @@
+.dental-service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dental-service-card:hover {
+    transform: translateY(-5px);
+}
+
+.dental-service-button {
+    background-color: #1e40af;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.dental-service-button:hover {
+    background-color: #1e3a8a;
+}

@@ -9,6 +9,23 @@
     color: #1e3a8a;
 }
 
+.nav-button {
+    background-color: #1e40af;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    white-space: normal;
+    max-width: 300px;
+    line-height: 1.2;
+}
+
+.nav-button:hover {
+    background-color: #1e3a8a;
+}
+
 @media (max-width: 768px) {
     .mobile-menu {
         background-color: white;
@@ -24,5 +41,12 @@
 
     .mobile-menu a:hover {
         background-color: #f3f4f6;
+    }
+
+    .mobile-menu button {
+        padding: 0.75rem;
+        border-bottom: 1px solid #e5e7eb;
+        width: 100%;
+        text-align: left;
     }
 }

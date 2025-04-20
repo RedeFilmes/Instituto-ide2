@@ -24,3 +24,12 @@
 .dental-service-button:hover {
     background-color: #1e3a8a;
 }
+
+.dental-services-swiper {
+    padding: 20px 40px;
+}
+
+.dental-services-swiper .swiper-button-next,
+.dental-services-swiper .swiper-button-prev {
+    margin-top: -30px;
+}

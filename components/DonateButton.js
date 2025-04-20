@@ -1,11 +1,15 @@
 function DonateButton() {
     try {
+        const handleDonateClick = () => {
+            document.getElementById('donation-modal').showModal();
+        };
+
         return (
             <div data-name="donate-button" className="donate-button">
-                <a href="#doe" className="donate-link">
-                    <i className="fas fa-heart mr-2"></i>
-                    Doe Agora
-                </a>
+                <button onClick={handleDonateClick} className="donate-link">
+                    <i className="fas fa-box-heart mr-2"></i>
+                    Doe Alimentos
+                </button>
             </div>
         );
     } catch (error) {

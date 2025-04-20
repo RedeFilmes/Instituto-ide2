@@ -1,0 +1,62 @@
+.swiper {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #1e40af;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: #1e40af;
+}
+
+.swiper-pagination-bullet-active {
+    background: #1e40af;
+}
+
+/* Gallery specific arrows */
+.gallery-swiper .swiper-button-next,
+.gallery-swiper .swiper-button-prev {
+    top: calc(50% - 20px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Dental services specific arrows */
+.dental-services-swiper .swiper-button-next,
+.dental-services-swiper .swiper-button-prev {
+    top: calc(50% - 20px);
+}
+
+@media (max-width: 640px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}

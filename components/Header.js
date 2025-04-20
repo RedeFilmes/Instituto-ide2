@@ -11,12 +11,11 @@ function Header() {
                             <span className="ml-2 text-xl font-bold text-blue-900">Instituto IDE</span>
                         </div>
 
-                        <div className="hidden md:flex space-x-6">
+                        <div className="hidden md:flex items-center space-x-6">
                             <a href="#inicio" className="nav-link">Início</a>
                             <a href="#cursos" className="nav-link">Cursos</a>
                             <a href="#servicos" className="nav-link">Serviços</a>
                             <a href="#projetos" className="nav-link">Projetos</a>
-                            <a href="#eventos" className="nav-link">Eventos</a>
                             <a href="#contato" className="nav-link">Contato</a>
                         </div>
 
@@ -35,7 +34,6 @@ function Header() {
                             <a href="#cursos" className="block py-2">Cursos</a>
                             <a href="#servicos" className="block py-2">Serviços</a>
                             <a href="#projetos" className="block py-2">Projetos</a>
-                            <a href="#eventos" className="block py-2">Eventos</a>
                             <a href="#contato" className="block py-2">Contato</a>
                         </div>
                     )}
